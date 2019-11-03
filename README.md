@@ -1,5 +1,33 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Voice123-test
+
+This API is a React app which connects to Voice123 sandbox API to obtain a list of voice artist, it includes a search bar which queries the list and renders as you type the criteria.
+
+## Installation
+
+Clone the repo with 
+
+
+Use the package manager [yarn](https://yarnpkg.com/lang/en/docs/install/) to install the API.
+
+bash
+git clone https://github.com/LilyMarcela/voice123-test.git
+
+## Usage
+
+node
+yarn start
+
+## Tasks List
+- The necessary libraries were installed (i.e. material-u, Axios)
+- A graphic interface was added to display the search bar
+- Axios was implemented to make a request to the voice123 sandbox and render the entire list of actors.
+- A graphic interface was added to display the actor's picture, name, and demo when available
+- pagination was implemented using react-pagination
+
+## Future Improvements
+- Testing needs to be added in the future
 ## Available Scripts
 
 In the project directory, you can run:
